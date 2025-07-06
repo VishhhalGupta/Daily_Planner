@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-def add_task(models.model):
+Class Task(models.model):
     task = models.charField(max_length = 100)
     is_completed = models.BooleanField(default = False)
     created_at = models.DateTimeField(auto_now_add=True)
